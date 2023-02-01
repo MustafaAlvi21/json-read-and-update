@@ -6,13 +6,38 @@ const fs = require('fs');
 var jsonMerger = require("json-merger");
 const updateJsonFile = require('update-json-file')
  
-const filePath = "./assets/";
+const filePath = "./shark_json/";
+const resultData = "./generated/";
 const promises = []
 
 
 const testing_DataModel = require("./model/tokens");
 
 
+// Merge json files into one
+function mergeJSON(){
+
+const timeOut = (t) => {
+    return new Promise( async (resolve, reject) => {
+      const id = t     
+      let rawdata = fs.readFileSync(filePath + "#" + id + '.json');
+      let student = JSON.parse(rawdata);
+      //   console.log(student);
+      resolve(student);
+    })
+}
+for (let i = 0; i <= 11383; i++) {
+    promises.push(timeOut(i)) 
+}
+Promise.all(promises)
+.then(response => {
+    console.log(response);
+    const data = JSON.stringify(response)
+    fs.writeFileSync(`./generated/metadata.json`, data);
+})
+.catch(err => console.log(err))
+
+}
 
 
 /*  ---------------------------------------------  */

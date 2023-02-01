@@ -1,0 +1,41 @@
+{
+  "Key": "5254f451881be378ffea33c64f784d23354d132b",
+  "name": "Crypto Sharks#6",
+  "description": "Join the crypto-shark revolution! Join us on a journey to save our oceans and help build the biggest community-owned crypto mining farm in the world! Crypto Sharks is a collection of 11,416 unique ocean predators that live and swim on the Ethereum blockchain. Step into our fin-tastic world and help protect our seas by adopting these majestic animals as your own. Yup you heard it, 1 Minted Crypto Shark = 1 Adopted shark. Get ready because we are just getting started!",
+  "image": "https://gateway.pinata.cloud/ipfs//Crypto_Sharks_6.png",
+  "edition": 6,
+  "attributes": [
+    {
+      "trait_type": "Backgrounds",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Jamaican"
+    },
+    {
+      "trait_type": "Headgear",
+      "value": "Captain"
+    },
+    {
+      "trait_type": "Eyewear",
+      "value": "None"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Laser"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Cigar"
+    },
+    {
+      "trait_type": "Teeth",
+      "value": "Normal"
+    }
+  ]
+}
